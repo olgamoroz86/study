@@ -1,7 +1,7 @@
 
 .header {  
   padding: 20px;
-  background: $headerColor;
+  background: #fff;
   &__container {
     max-width: 1140px;
     margin: 0 auto;
@@ -11,17 +11,21 @@
     justify-content: space-between;
   }
   &__logo {
-    width: 50px;
-    height: 30px;
-    background: red;
+    font-family: 'Wisdom Script';
+    font-size: 35px;
+    color: #272727;
+    text-decoration: none;
+  &:first-letter {
+    color: #fc5f45;
   }
+}
   &__nav {
     display: flex;
     align-items: center;
     a {
       display: block;
       font-size: 14px;
-      color: #fff;
+      color: #272727;
       margin-left: 22px;
     }
   }

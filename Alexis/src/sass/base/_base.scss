@@ -5,6 +5,30 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+	font-family:'Wisdom Script';
+	src: url('../../fonts/Wisdom-Script.eot');
+src: url('../../fonts/Wisdom-Script.eot?#iefix') format('embedded-opentype'),
+	url('../../fonts/Wisdom-Script.woff2') format('woff2'),
+	url('../../fonts/Wisdom-Script.woff') format('woff'),
+	url('../../fonts/Wisdom-Script.svg#Wisdom-Script') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-00AE;
+}
+@font-face {
+	font-family:'Myriad_Regular';
+	src: url('../../fonts/Myriad_Regular.eot');
+src: url('../../fonts/Myriad_Regular.eot?#iefix') format('embedded-opentype'),
+	url('../../fonts/Myriad_Regular.woff2') format('woff2'),
+	url('../../fonts/Myriad_Regular.woff') format('woff'),
+	url('../../fonts/Myriad_Regular.svg#o Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-00FE;
+}
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 
 html, body, div, span, applet, object, iframe,

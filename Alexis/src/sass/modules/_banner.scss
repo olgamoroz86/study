@@ -4,8 +4,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  min-height: 800px;
-  background: url('../../img/slider-background.jpg') no-repeat;
+  min-height: 780px;
+  background-color: #cccccc;
   background-size: cover;
   &:after {
     position: absolute;
@@ -14,8 +14,8 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: black;
-    opacity: 0.3;
+    background: #262732;
+    opacity: 0.85;
   }
   &__wrapper {
     position: relative;
@@ -26,6 +26,42 @@
     font-size: 60px;
     color: #fff;
     text-align: center;
-    line-height: 80px;
+    line-height: 95px;
+    margin-bottom: 40px;
+    margin-top: -70px;
+  } 
+  .btn {
+    display: block;
+    margin: 0 auto;
+  }
+  &__container {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__icon1 {
+    color: $green;
+    margin: 0 auto;
+    text-align: center;
+}
+  &__icon2 {
+    color: $violet;
+    margin: 0 auto;
+    text-align: center;
+    margin-right: 25px;
+  }
+  &__icon3 {    
+    color: $yellow;
+    margin: 0 auto;
+    text-align: center;   
+  }
+  .icon_title {
+    margin-top: 40px;
+    font-family: 'Myriad_Regular';
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;   
   }
 }
