@@ -1,0 +1,59 @@
+.portfolio {
+    padding: 80px 15px;
+    background-color: $lightGray;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:after {
+      position: absolute;
+      left: auto;
+      top: 0;
+      font-weight: bold;
+      content: '03';
+      font-size: 200px;
+      color: #f0f0f0;
+    }
+    .wrapper {
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+    &__head {
+        margin-bottom: 80px;
+        position: relative;
+        z-index: 1;
+      }
+      &__subText {
+        font-size: 14px;
+        color: $gray2;
+        text-align: center;
+      }
+      .sectionTitle {
+        margin-bottom: 40px;
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 60px;
+      }
+      &__boxes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+      }
+      .box {
+          height: 288px;
+          width: 360px;
+          max-width: 360px;
+          max-height: 288px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 15px 15px;
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+          &:hover {
+              opacity: 0.8;                       
+          }
+      }
+
+}

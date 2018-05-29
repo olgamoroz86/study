@@ -1,7 +1,7 @@
 
 .header {  
   padding: 20px;
-  background: $headerColor;
+  background: #fff;
   &__container {
     max-width: 1140px;
     margin: 0 auto;
@@ -19,7 +19,7 @@
     a {
       display: block;
       font-size: 14px;
-      color: #fff;
+      color: $headerColor;
       margin-left: 22px;
     }
   }

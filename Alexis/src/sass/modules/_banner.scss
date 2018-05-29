@@ -2,7 +2,7 @@
   position: relative;
   min-height: 700px;
   padding: 40px 15px;
-  background: url('../img/slider-background.jpg') no-repeat center center;
+  background: #cccccc;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -14,7 +14,8 @@
     width: 100%;
     height: 100%;
     content: '';
-    background: rgba(18, 38, 76, 0.4);
+    background: #262732;
+    opacity: 0.85;
   }
   .wrapper {
     max-width: 830px;
