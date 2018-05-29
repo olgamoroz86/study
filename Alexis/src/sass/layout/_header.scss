@@ -11,15 +11,9 @@
     justify-content: space-between;
   }
   &__logo {
-    height: 30px;
   }
-  &__nav {
-    display: flex;
-    align-items: center;
-    a {
-      display: block;
-      font-size: 14px;
       color: $headerColor;
+      color: #272727;
       margin-left: 22px;
     }
   }
